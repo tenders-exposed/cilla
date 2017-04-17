@@ -1,0 +1,18 @@
+{
+  "name": "cilla",
+  "version": "0.0.0",
+  "description": "Small web server callable via GitHub",
+  "author": "Victor Nițu",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": "https://github.com/tenders-exposed/cilla.git",
+  "engines": {
+    "node": ">= 7.0.0"
+  },
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-better-router": "^2.1.1"
+  }
+}
